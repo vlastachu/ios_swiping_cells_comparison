@@ -7,22 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E648DA8D742A5525F3A2CDA /* libPods-SwipeCells.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E9938141DA764ABD85CA390 /* libPods-SwipeCells.a */; };
+		1F2B8C0018C5E88E2739CE13 /* Pods_SwipeCells.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C38288D1025890C4D38292 /* Pods_SwipeCells.framework */; };
 		E05C96CE1E40F4950040E07D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05C96CD1E40F4950040E07D /* AppDelegate.swift */; };
 		E05C96D51E40F4950040E07D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E05C96D31E40F4950040E07D /* Main.storyboard */; };
 		E05C96D71E40F4950040E07D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E05C96D61E40F4950040E07D /* Assets.xcassets */; };
 		E05C96DA1E40F4950040E07D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E05C96D81E40F4950040E07D /* LaunchScreen.storyboard */; };
 		E05C96E21E40FCD20040E07D /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05C96E11E40FCD20040E07D /* TabBarController.swift */; };
 		E05C96E41E4100620040E07D /* UITableViewRowAction_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05C96E31E4100620040E07D /* UITableViewRowAction_VC.swift */; };
-		E05C96E61E410A9A0040E07D /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E05C96E51E410A9A0040E07D /* Cell.xib */; };
 		E05C96E81E410B020040E07D /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05C96E71E410B020040E07D /* Cell.swift */; };
 		E05C96EA1E410C7D0040E07D /* ShowMoreTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05C96E91E410C7D0040E07D /* ShowMoreTextView.swift */; };
+		E05C96EC1E4219500040E07D /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05C96EB1E4219500040E07D /* BaseTableViewController.swift */; };
+		E05C96EE1E421A7E0040E07D /* MGSwipeTableCell_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05C96ED1E421A7E0040E07D /* MGSwipeTableCell_VC.swift */; };
+		E05C96F21E421D1A0040E07D /* MGCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05C96F11E421D1A0040E07D /* MGCell.swift */; };
+		E05C96F81E422C020040E07D /* BMXSwipableCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E05C96F51E422C020040E07D /* BMXSwipableCell.framework */; };
+		E05C96F91E422C020040E07D /* MGSwipeTableCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E05C96F61E422C020040E07D /* MGSwipeTableCell.framework */; };
+		E05C96FA1E422C020040E07D /* MKSlidingTableViewCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E05C96F71E422C020040E07D /* MKSlidingTableViewCell.framework */; };
+		E05C96FC1E4258130040E07D /* BMXCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05C96FB1E4258130040E07D /* BMXCell.swift */; };
+		E05C96FE1E4258870040E07D /* BMXSwipableCell_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05C96FD1E4258870040E07D /* BMXSwipableCell_VC.swift */; };
+		E05C97001E4267970040E07D /* UsefulExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05C96FF1E4267970040E07D /* UsefulExtensions.swift */; };
+		E05C97021E4351D70040E07D /* MKSlidingTableViewCell_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05C97011E4351D70040E07D /* MKSlidingTableViewCell_VC.swift */; };
+		E05C97041E4355200040E07D /* MKBackgroundCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05C97031E4355200040E07D /* MKBackgroundCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D6FCA7FEBD26CCB400A2FBB /* Pods-SwipeCells.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeCells.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwipeCells/Pods-SwipeCells.release.xcconfig"; sourceTree = "<group>"; };
-		4E9938141DA764ABD85CA390 /* libPods-SwipeCells.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwipeCells.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D1706598872BBBB9C65CE09 /* Pods-SwipeCells.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeCells.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwipeCells/Pods-SwipeCells.debug.xcconfig"; sourceTree = "<group>"; };
+		C4C38288D1025890C4D38292 /* Pods_SwipeCells.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeCells.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E05C96CA1E40F4950040E07D /* SwipeCells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeCells.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E05C96CD1E40F4950040E07D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E05C96D41E40F4950040E07D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -31,9 +41,19 @@
 		E05C96DB1E40F4950040E07D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E05C96E11E40FCD20040E07D /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		E05C96E31E4100620040E07D /* UITableViewRowAction_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewRowAction_VC.swift; sourceTree = "<group>"; };
-		E05C96E51E410A9A0040E07D /* Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell.xib; sourceTree = "<group>"; };
 		E05C96E71E410B020040E07D /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		E05C96E91E410C7D0040E07D /* ShowMoreTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowMoreTextView.swift; sourceTree = "<group>"; };
+		E05C96EB1E4219500040E07D /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		E05C96ED1E421A7E0040E07D /* MGSwipeTableCell_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGSwipeTableCell_VC.swift; sourceTree = "<group>"; };
+		E05C96F11E421D1A0040E07D /* MGCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGCell.swift; sourceTree = "<group>"; };
+		E05C96F51E422C020040E07D /* BMXSwipableCell.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BMXSwipableCell.framework; path = "Pods/../build/Debug-iphoneos/BMXSwipableCell/BMXSwipableCell.framework"; sourceTree = "<group>"; };
+		E05C96F61E422C020040E07D /* MGSwipeTableCell.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MGSwipeTableCell.framework; path = "Pods/../build/Debug-iphoneos/MGSwipeTableCell/MGSwipeTableCell.framework"; sourceTree = "<group>"; };
+		E05C96F71E422C020040E07D /* MKSlidingTableViewCell.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MKSlidingTableViewCell.framework; path = "Pods/../build/Debug-iphoneos/MKSlidingTableViewCell/MKSlidingTableViewCell.framework"; sourceTree = "<group>"; };
+		E05C96FB1E4258130040E07D /* BMXCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMXCell.swift; sourceTree = "<group>"; };
+		E05C96FD1E4258870040E07D /* BMXSwipableCell_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMXSwipableCell_VC.swift; sourceTree = "<group>"; };
+		E05C96FF1E4267970040E07D /* UsefulExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsefulExtensions.swift; sourceTree = "<group>"; };
+		E05C97011E4351D70040E07D /* MKSlidingTableViewCell_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKSlidingTableViewCell_VC.swift; sourceTree = "<group>"; };
+		E05C97031E4355200040E07D /* MKBackgroundCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKBackgroundCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +61,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E648DA8D742A5525F3A2CDA /* libPods-SwipeCells.a in Frameworks */,
+				E05C96F81E422C020040E07D /* BMXSwipableCell.framework in Frameworks */,
+				E05C96F91E422C020040E07D /* MGSwipeTableCell.framework in Frameworks */,
+				E05C96FA1E422C020040E07D /* MKSlidingTableViewCell.framework in Frameworks */,
+				1F2B8C0018C5E88E2739CE13 /* Pods_SwipeCells.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +83,10 @@
 		58F42EB57CA65FC53E828E40 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4E9938141DA764ABD85CA390 /* libPods-SwipeCells.a */,
+				E05C96F51E422C020040E07D /* BMXSwipableCell.framework */,
+				E05C96F61E422C020040E07D /* MGSwipeTableCell.framework */,
+				E05C96F71E422C020040E07D /* MKSlidingTableViewCell.framework */,
+				C4C38288D1025890C4D38292 /* Pods_SwipeCells.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -86,18 +112,33 @@
 		E05C96CC1E40F4950040E07D /* SwipeCells */ = {
 			isa = PBXGroup;
 			children = (
+				E05C97051E43552A0040E07D /* cells */,
 				E05C96CD1E40F4950040E07D /* AppDelegate.swift */,
 				E05C96D31E40F4950040E07D /* Main.storyboard */,
 				E05C96D61E40F4950040E07D /* Assets.xcassets */,
 				E05C96D81E40F4950040E07D /* LaunchScreen.storyboard */,
 				E05C96DB1E40F4950040E07D /* Info.plist */,
 				E05C96E11E40FCD20040E07D /* TabBarController.swift */,
-				E05C96E31E4100620040E07D /* UITableViewRowAction_VC.swift */,
-				E05C96E51E410A9A0040E07D /* Cell.xib */,
-				E05C96E71E410B020040E07D /* Cell.swift */,
 				E05C96E91E410C7D0040E07D /* ShowMoreTextView.swift */,
+				E05C96EB1E4219500040E07D /* BaseTableViewController.swift */,
+				E05C96E31E4100620040E07D /* UITableViewRowAction_VC.swift */,
+				E05C96ED1E421A7E0040E07D /* MGSwipeTableCell_VC.swift */,
+				E05C96FD1E4258870040E07D /* BMXSwipableCell_VC.swift */,
+				E05C97011E4351D70040E07D /* MKSlidingTableViewCell_VC.swift */,
+				E05C96FF1E4267970040E07D /* UsefulExtensions.swift */,
 			);
 			path = SwipeCells;
+			sourceTree = "<group>";
+		};
+		E05C97051E43552A0040E07D /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				E05C96E71E410B020040E07D /* Cell.swift */,
+				E05C96F11E421D1A0040E07D /* MGCell.swift */,
+				E05C96FB1E4258130040E07D /* BMXCell.swift */,
+				E05C97031E4355200040E07D /* MKBackgroundCell.swift */,
+			);
+			name = cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,7 +204,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E05C96DA1E40F4950040E07D /* LaunchScreen.storyboard in Resources */,
-				E05C96E61E410A9A0040E07D /* Cell.xib in Resources */,
 				E05C96D71E40F4950040E07D /* Assets.xcassets in Resources */,
 				E05C96D51E40F4950040E07D /* Main.storyboard in Resources */,
 			);
@@ -225,10 +265,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				E05C96EA1E410C7D0040E07D /* ShowMoreTextView.swift in Sources */,
+				E05C96FE1E4258870040E07D /* BMXSwipableCell_VC.swift in Sources */,
 				E05C96E21E40FCD20040E07D /* TabBarController.swift in Sources */,
+				E05C97041E4355200040E07D /* MKBackgroundCell.swift in Sources */,
 				E05C96E81E410B020040E07D /* Cell.swift in Sources */,
+				E05C96F21E421D1A0040E07D /* MGCell.swift in Sources */,
+				E05C96EE1E421A7E0040E07D /* MGSwipeTableCell_VC.swift in Sources */,
+				E05C96FC1E4258130040E07D /* BMXCell.swift in Sources */,
 				E05C96CE1E40F4950040E07D /* AppDelegate.swift in Sources */,
+				E05C97001E4267970040E07D /* UsefulExtensions.swift in Sources */,
+				E05C96EC1E4219500040E07D /* BaseTableViewController.swift in Sources */,
 				E05C96E41E4100620040E07D /* UITableViewRowAction_VC.swift in Sources */,
+				E05C97021E4351D70040E07D /* MKSlidingTableViewCell_VC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +398,12 @@
 			baseConfigurationReference = 9D1706598872BBBB9C65CE09 /* Pods-SwipeCells.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/BMXSwipableCell",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/MGSwipeTableCell",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/MKSlidingTableViewCell",
+				);
 				INFOPLIST_FILE = SwipeCells/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vlastachu.SwipeCells;
@@ -363,6 +417,12 @@
 			baseConfigurationReference = 4D6FCA7FEBD26CCB400A2FBB /* Pods-SwipeCells.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/BMXSwipableCell",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/MGSwipeTableCell",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/MKSlidingTableViewCell",
+				);
 				INFOPLIST_FILE = SwipeCells/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vlastachu.SwipeCells;

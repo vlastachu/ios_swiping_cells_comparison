@@ -63,7 +63,7 @@
         <!--MKSlidingTableViewCell-->
         <scene sceneID="lUf-I1-xuF">
             <objects>
-                <tableViewController id="43c-jB-Iag" sceneMemberID="viewController">
+                <tableViewController id="43c-jB-Iag" customClass="MKSlidingTableViewCell_VC" customModule="SwipeCells" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="tCO-54-jWD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -92,7 +92,7 @@
         <!--BMXSwipableCell-->
         <scene sceneID="uap-Ks-t4e">
             <objects>
-                <tableViewController id="5PW-E4-XJD" sceneMemberID="viewController">
+                <tableViewController id="5PW-E4-XJD" customClass="BMXSwipableCell_VC" customModule="SwipeCells" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="uG5-Un-SkH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -121,7 +121,7 @@
         <!--MGSwipeTableCell-->
         <scene sceneID="7VY-bG-MCe">
             <objects>
-                <tableViewController id="dOb-sv-VpX" sceneMemberID="viewController">
+                <tableViewController id="dOb-sv-VpX" customClass="MGSwipeTableCell_VC" customModule="SwipeCells" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="NnV-Wx-6ki">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
