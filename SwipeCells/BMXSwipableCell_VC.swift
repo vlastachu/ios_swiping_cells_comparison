@@ -28,20 +28,20 @@ class BMXSwipableCell_VC: BaseTableViewController {
         
         //cell.delegate = self //optional
         
-        let delete = UIButton(type: .custom)
-        delete.backgroundColor = UIColor(red: 1, green: 0.231, blue: 0.188, alpha: 1)
-        delete.setTitle("Delete", for: .normal)
-        delete.setTitleColor(UIColor.white, for: .normal)
-        delete.addOnTap(callback: {[unowned self] in
+        let 🗑 = UIButton(type: .custom)
+        🗑.backgroundColor = UIColor(red: 1, green: 0.231, blue: 0.188, alpha: 1)
+        🗑.setTitle("Remove", for: .normal)
+        🗑.setTitleColor(UIColor.white, for: .normal)
+        🗑.addOnTap(callback: {[unowned self] in
             tableView.beginUpdates()
             self.data[indexPath.section].remove(at: indexPath.row)
             tableView.deleteRows(at: [indexPath], with: .automatic)
             tableView.endUpdates()
         })
-        delete.setImage(UIImage(named: "remove"), for: .normal)
+        🗑.setImage(UIImage(named: "remove"), for: .normal)
         let h = cell.basementView.frame.width
-        delete.frame = CGRect(x: cell.basementView.frame.width - h, y: 0, width: h, height: h)
-        cell.basementView.addSubview(delete)
+        🗑.frame = CGRect(x: cell.basementView.frame.width - h, y: 0, width: h, height: h)
+        cell.basementView.addSubview(🗑)
         
         
         return cell

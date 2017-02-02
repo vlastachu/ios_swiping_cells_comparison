@@ -23,7 +23,8 @@ class MKSlidingTableViewCell_VC: BaseTableViewController {
         let bgCell = MKBackgroundCell(style: .default, reuseIdentifier: reuseId2)
         cell.drawerView = bgCell
         cell.drawerRevealAmount = 124
-        bgCell.delete.addOnTap { [unowned self] in
+        
+        bgCell.🗑.addOnTap { [unowned self] in
             tableView.beginUpdates()
             self.data[indexPath.section].remove(at: indexPath.row)
             tableView.deleteRows(at: [indexPath], with: .automatic)

@@ -37,18 +37,19 @@ class MGSwipeTableCell_VC: BaseTableViewController, MGSwipeTableCellDelegate {
         
         cell.delegate = self //optional
         
-        //configure left buttons
-        cell.leftButtons = [MGSwipeButton(title: "tutu", backgroundColor: UIColor.green)
-            ,MGSwipeButton(title: "ruu", backgroundColor: UIColor.blue)]
-        cell.leftSwipeSettings.transition = MGSwipeTransition.rotate3D
+        let 🌚 = MGSwipeButton(title: " 🌚 ", backgroundColor: UIColor(red: 230/255, green: 207/255, blue: 89/255, alpha: 1))
+        let 🌝 = MGSwipeButton(title: " 🌝 ", backgroundColor: UIColor.orange)
+        cell.leftButtons = [🌚, 🌝]
+        cell.leftSwipeSettings.transition = MGSwipeTransition.drag
         
         //configure right buttons
-        let delete = MGSwipeButton(title: "Delete", icon: UIImage(named: "remove"), backgroundColor: UIColor.red)
-        delete.imageEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 5)
-        delete.titleEdgeInsets = UIEdgeInsets(top: 0, left: 5, bottom: 0, right: 0)
-        delete.frame.size.width += 10
-        cell.rightButtons = [delete, MGSwipeButton(title: "More",backgroundColor: UIColor.lightGray)]
-        cell.rightSwipeSettings.transition = MGSwipeTransition.rotate3D
+        let 🗑 = MGSwipeButton(title: "Delete", icon: UIImage(named: "remove"), backgroundColor: UIColor.red)
+        🗑.imageEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 5)
+        🗑.titleEdgeInsets = UIEdgeInsets(top: 0, left: 5, bottom: 0, right: 0)
+        🗑.frame.size.width += 10
+        let 🌟 = MGSwipeButton(title: "More",backgroundColor: UIColor.lightGray)
+        cell.rightButtons = [🗑, 🌟]
+        cell.rightSwipeSettings.transition = MGSwipeTransition.clipCenter
         
         return cell
     }

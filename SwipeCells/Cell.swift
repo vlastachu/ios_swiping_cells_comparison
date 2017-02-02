@@ -22,15 +22,7 @@ class Cell: UITableViewCell {
         
         // well... you can't get rid of boilerplate if you want make constraints programmatically
         textView.translatesAutoresizingMaskIntoConstraints = false
-        for dir in [NSLayoutAttribute.bottom,NSLayoutAttribute.trailing] {
-            self.addConstraint(NSLayoutConstraint(item: self, attribute: dir, relatedBy: .equal,
-                                                  toItem: self.textView, attribute: dir, multiplier: 1, constant: 12))
-        }
-        
-        for dir in [NSLayoutAttribute.leading, NSLayoutAttribute.top] {
-            self.addConstraint(NSLayoutConstraint(item: self.textView, attribute: dir, relatedBy: .equal,
-                                                  toItem: self, attribute: dir, multiplier: 1, constant: 12))
-        }
+        textView.addConstraints(toSuperView: self, withPadding: 12)
     }
     
     required init?(coder aDecoder: NSCoder) {

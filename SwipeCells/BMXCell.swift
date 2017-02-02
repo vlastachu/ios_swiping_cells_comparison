@@ -23,15 +23,7 @@ class BMXCell: BMXSwipableCell {
         
         // well... you can't get rid of boilerplate if you want make constraints programmatically
         textView.translatesAutoresizingMaskIntoConstraints = false
-        for dir in [NSLayoutAttribute.bottom,NSLayoutAttribute.trailing] {
-            contentView.addConstraint(NSLayoutConstraint(item: contentView, attribute: dir, relatedBy: .equal,
-                                                         toItem: textView, attribute: dir, multiplier: 1, constant: 12))
-        }
-        
-        for dir in [NSLayoutAttribute.leading, NSLayoutAttribute.top] {
-            contentView.addConstraint(NSLayoutConstraint(item: textView, attribute: dir, relatedBy: .equal,
-                                                         toItem: contentView, attribute: dir, multiplier: 1, constant: 12))
-        }
+        textView.addConstraints(toSuperView: contentView, withPadding: 12)
     }
     
     required init?(coder aDecoder: NSCoder) {
